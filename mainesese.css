@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    background-color: black;
+    overflow-x: hidden;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.general{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    box-sizing: border-box;
+}
+.arriba{
+    width: 5vw;
+    height: 100vh;
+    top: 40px;
+    position: fixed;
+    left: auto;
+    top: auto;
+    border-right: solid 1px white;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.conte{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+
+}
+.conte a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conte:hover{
+    background-color: aliceblue;
+}
+
+
+.insta{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+   
+}
+.inst{
+    padding-left: 10px;
+    color: white;
+}
+.izqconte{
+    width: 100%;
+    justify-content: center;
+    padding: 10px 15px 10px 0px;
+    border-radius: 10px;
+}
+.instag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+
+}
+.instag:hover{
+    background-color: aliceblue;
+}
+
+.centro{
+    width: 95vw;
+    height: 100vh;
+    position: relative;
+    left: 5vw;
+    display: flex;
+}
+
+
+
+.fin{
+    height: 100%;
+    width: 30%;
+}
+.uno{
+    height: 8%;
+    width: 100%;
+    margin-top: 1vh;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}   
+.uno svg{
+    cursor: pointer;
+    margin: 10px;
+}
+.uno div{
+    margin: 10px;
+
+}
+.dos{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    margin: 10px;
+}
+
+
+.cuatro{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instag img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}

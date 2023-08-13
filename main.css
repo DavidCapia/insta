@@ -1,0 +1,205 @@
+body{
+    margin: 0px;
+    background-color: black;
+    overflow-x: hidden;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.general{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    box-sizing: border-box;
+}
+.arriba{
+    width: 18vw;
+    height: 100vh;
+    top: 40px;
+    position: fixed;
+    left: auto;
+    top: auto;
+    border-right: solid 1px white;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.conte{
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+
+}
+.conte a{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.conte:hover{
+    background-color: aliceblue;
+}
+
+
+.insta{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+   
+}
+.inst{
+    padding-left: 10px;
+    color: white;
+}
+.izqconte{
+    width: 100%;
+    justify-content: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    padding-left: 0px;
+
+}
+.instag{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+
+}
+.instag:hover{
+    background-color: aliceblue;
+}
+
+.centro{
+    width: 82vw;
+    height: 100vh;
+    position: relative;
+    left: 18vw;
+}
+.bloque{
+    width: 75vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
+
+}
+.imgj img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 120px;
+
+}
+.contenido{
+    height: 100%;
+    width: 60vw;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    padding-left: 40px;
+    margin-left: 40px;
+
+}
+.informacion{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.informacion div a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.Seguir button{
+    background-color: rgba(0, 217, 255, 0.836);
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+
+}
+.Mensaje button{
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+
+}
+.amigos button{
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.seguidores{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.historias{
+    width: 75vw;
+    height: 25vh;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.hiscont img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+}
+.hiscont{
+    justify-content: end;
+    align-items: end;
+}
+.hiscont div{
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.fin{
+    width: 75vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fin div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.bloques{
+    width: 50vh;
+    height: 50vh;
+    margin: 10px;
+    cursor: pointer;
+}
+.bloques img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.bloques  :hover{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}   
+.instag img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
